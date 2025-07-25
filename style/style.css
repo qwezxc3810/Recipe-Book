@@ -1,0 +1,66 @@
+@font-face {
+        font-family: pretendard;
+        src: url(../fonts/Pretendard-Regular.woff) format('woff2');
+        font-weight: 400;
+}
+
+@font-face {
+        font-family: 'MyCustomFont';
+        src: url('../fonts/my-font-bold.woff2') format('woff2');
+        font-weight: 700; }
+
+body {
+        background-image: url(../img/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+header {
+        display: flex;
+        flex-direction: column-reverse;
+}
+h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 52px;
+        color: rgb(214, 145, 18);
+
+}
+header a img {
+        width: 350px;
+        height: auto;
+        margin: 10px;
+}
+
+.main-fir-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+}
+.main-fir-sec h2 { 
+        font-size: 48px;
+        font-weight: 700;
+        color: #f00;;
+}
+
+.main-nav {
+        margin-top: 50px;
+}
+
+.main-menu-nav {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        gap: 80px;
+}
+
+.main-menu-nav li a img {
+        width: 400px;
+        height: auto;
+        margin-top: 50px;
+}
