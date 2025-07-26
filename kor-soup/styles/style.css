@@ -1,0 +1,95 @@
+header {
+        display: flex;
+        flex-direction: column-reverse;
+}
+body {
+        background-image: url(/img/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+}
+h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        color: rgb(214, 145, 18);
+}
+header a img {
+        width: 15rem;
+        height: auto;
+        margin: 1rem;
+}
+.main-fir-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.main-fir-sec h2 { 
+        font-size: 2.5em;
+        font-weight: 700;
+        color: #f00;
+}
+.main-ingerdients {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        width: 50rem;
+        gap: 15rem;
+        flex-wrap: wrap;
+}
+.main-sec-ingerdients {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 5rem;
+}
+.ingerdients {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        color: black;
+        text-align: left;
+}
+.main-ingerdients-img {
+        width: 20rem;
+        height: auto;
+}
+.main-order img {
+        width: 10rem;
+}
+.main-sec-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10rem;
+}
+.main-sec-sec h3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        font-size: 2rem;
+        font-weight: bold;
+}
+.main-order {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10rem;
+}
+.main-order li h4 {
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 400;
+}
+.main-order li img {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 3rem;
+}
